@@ -14,7 +14,7 @@ var state = {
 exports.connect = function(mode, done) {
   if(mode === exports.MODE_PROD){
     state.pool = mysql.createPool({
-      host: '79.143.187.58',
+      host: 'localhost',
       user: 'c9_heroku',
       password: 'iSrzJ@eM64',
       database: PROD_DB
